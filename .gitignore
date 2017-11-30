@@ -1,32 +1,42 @@
-# Prerequisites
-*.d
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
 
-# Precompiled Headers
-*.gch
-*.pch
+# gradle
+build
+.gradle
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# other
+eclipse
+run
+UpdateForge.bat
+src/main/resources/mcmod.info
+src/main/resources/mcmod.info
+setupEclipse.bat
+setupCleanCache.bat
+README.txt
+Paulscode SoundSystem CodecIBXM License.txt
+Paulscode IBXM Library License.txt
+MinecraftForge-Credits.txt
+LICENSE-new.txt
+gradlew.bat
+gradlew
+gradle/wrapper/gradle-wrapper.properties
+gradle/wrapper/gradle-wrapper.jar
+gradle.properties
+forge-1.12.2-14.23.0.2540-changelog.txt
+forge-1.12.2-14.23.0.2512-changelog.txt
+CREDITS-fml.txt
+build.gradle
+Build Mod.bat
