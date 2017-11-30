@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" YX",
+		"YXY",
+		"#Y "
+	],
+	"key": {
+		"X": {
+			"item": "minecraft:obsidian"
+		},
+		"#": {
+			"item": "minecraft:stick"
+		},
+		"Y": {
+			"item": "minecraft:diamond_block"
+			}
+	},
+	"result": {
+		"item": "rds:reinforceddiamondsword"
+	}
+}

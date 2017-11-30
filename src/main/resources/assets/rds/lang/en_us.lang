@@ -1,9 +1,8 @@
-#Lang file was made using MCreator
-#Sat Jun 10 13:36:48 ACST 2017
-itemGroup.tabrDSTab=RDS
-item.RDS.name=Reinforced Diamond Sword
-item.RSS.name=Reinforced Stone Sword
-item.RWS.name=Reinforced Wooden Sword
+item.ReinforcedWoodSword.name=Reinforced Wood Sword
+item.ReinforcedStoneSword.name=Reinforced Stone Sword
+item.ReinforcedGoldSword.name=Reinforced Gold Sword
+item.ReinforcedIronSword.name=Reinforced Iron Sword
+item.ReinforcedDiamondSword.name=Reinforced Diamond Sword
 item.Mjolnir.name=Mjolnir
-item.RGS.name=Reinforced Gold Sword
-item.RIS.name=Reinforced Iron Sword
+
+itemGroup.ReinforcedDiamondSword=Reinforced Diamond Sword
