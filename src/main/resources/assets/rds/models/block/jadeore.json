@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "up": "blocks/jadeore","down": "blocks/jadeore","north": "blocks/jadeore","east": "blocks/jadeore","south": "blocks/jadeore","west": "blocks/jadeore","particle": "blocks/jadeore"
+    }
+}
