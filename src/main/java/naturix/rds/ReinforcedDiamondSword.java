@@ -18,7 +18,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class ReinforcedDiamondSword
 {
     public static final String MODID = "rds";
-    public static final String VERSION = "1.12.2.0";
+    public static final String VERSION = "1.12.2.1";
     public static final String MODNAME = "Reinforced Diamond Sword";
     
     @SidedProxy(clientSide = "naturix.rds.proxies.ClientProxy", serverSide = "naturix.rds.proxies.ServerProxy")
@@ -29,7 +29,7 @@ public class ReinforcedDiamondSword
 
     public static org.apache.logging.log4j.Logger logger;
 
-    public static final Item.ToolMaterial ReinforcedWoodToolMaterial = EnumHelper.addToolMaterial("RWOOD", 2, 120, 6, 2, 14);
+    public static final Item.ToolMaterial ReinforcedWoodToolMaterial = EnumHelper.addToolMaterial("RWOOD", 2, 120, 6, Config.woodDamage, 14);
     public static final Item.ToolMaterial ReinforcedStoneToolMaterial = EnumHelper.addToolMaterial("RSTONE", 2, 264, 6, 3, 14);
     public static final Item.ToolMaterial ReinforcedGoldToolMaterial = EnumHelper.addToolMaterial("RGOLD", 2, 66, 6, 4, 14);
     public static final Item.ToolMaterial ReinforcedIronToolMaterial = EnumHelper.addToolMaterial("RIRON", 2, 502, 6, 5, 14);

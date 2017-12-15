@@ -8,7 +8,8 @@ import naturix.rds.proxies.CommonProxy;
 public class Config {
 
     private static final String CATEGORY_GENERAL = "general";
-
+    public static int woodDamage;
+    
     public static void readConfig() {
         Configuration cfg = CommonProxy.config;
         try {
@@ -25,6 +26,8 @@ public class Config {
 
     private static void initGeneralConfig(Configuration cfg) {
         cfg.addCustomCategoryComment(CATEGORY_GENERAL, "General configuration");
+        woodDamage = cfg.getInt("Wood Damage", CATEGORY_GENERAL, 2, 1, 1000, "The amount of damage the sword does");
+        
     }
 
 }
