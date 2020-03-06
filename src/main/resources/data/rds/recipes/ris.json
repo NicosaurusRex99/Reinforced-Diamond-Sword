@@ -13,10 +13,10 @@
 			"item": "minecraft:stick"
 		},
 		"Y": {
-			"item": "minecraft:diamond_block"
+			"item": "minecraft:iron_block"
 			}
 	},
 	"result": {
-		"item": "rds:reinforceddiamondsword"
+		"item": "rds:iron_sword"
 	}
 }

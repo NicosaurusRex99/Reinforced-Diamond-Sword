@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " #O",
+        "#O#",
+        "/# "
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:planks"
+        },
+        "O": {
+            "item": "minecraft:obsidian"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "rds:wood_sword",
+        "count": 1
+    }
+}
