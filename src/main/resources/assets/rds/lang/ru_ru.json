@@ -1,0 +1,8 @@
+{
+  "item.rds.wood_sword": "Укрепленный деревянный меч",
+  "item.rds.stone_sword": "Укрепленный каменный меч",
+  "item.rds.gold_sword": "Укрепленный золотой меч",
+  "item.rds.iron_sword": "Укрепленный железный меч",
+  "item.rds.diamond_sword": "Укрепленный алмазный меч",
+  "itemGroup.rds": "Укрепленные мечи"
+}
