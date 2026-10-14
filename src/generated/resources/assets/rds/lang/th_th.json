@@ -1,0 +1,10 @@
+{
+  "item.rds.reinforced_copper_sword": "ดาบทองแดงเสริมแรง",
+  "item.rds.reinforced_diamond_sword": "ดาบเพชรเสริมแรง",
+  "item.rds.reinforced_golden_sword": "ดาบทองคำเสริมแรง",
+  "item.rds.reinforced_iron_sword": "ดาบเหล็กเสริมแรง",
+  "item.rds.reinforced_netherite_sword": "ดาบ Netherite เสริมแรง",
+  "item.rds.reinforced_stone_sword": "ดาบหินเสริมแรง",
+  "item.rds.reinforced_wooden_sword": "ดาบไม้เสริมแรง",
+  "itemGroup.rds": "ดาบเพชรเสริมความแข็งแกร่ง!"
+}

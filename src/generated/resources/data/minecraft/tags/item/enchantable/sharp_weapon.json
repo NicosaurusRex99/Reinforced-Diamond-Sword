@@ -1,0 +1,11 @@
+{
+  "values": [
+    "rds:reinforced_copper_sword",
+    "rds:reinforced_diamond_sword",
+    "rds:reinforced_golden_sword",
+    "rds:reinforced_iron_sword",
+    "rds:reinforced_netherite_sword",
+    "rds:reinforced_stone_sword",
+    "rds:reinforced_wooden_sword"
+  ]
+}

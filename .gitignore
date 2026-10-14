@@ -1,42 +1,34 @@
-# eclipse
-bin
-*.launch
-.settings
-.metadata
-.classpath
-.project
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/**/build/
 
-# idea
-out
-*.ipr
+.idea/
 *.iws
 *.iml
-.idea
+*.ipr
+out/
+!**/src/**/out/
 
-# gradle
-build
-.gradle
+.run/
 
-# other
-eclipse
-run
-UpdateForge.bat
-src/main/resources/mcmod.info
-src/main/resources/mcmod.info
-setupEclipse.bat
-setupCleanCache.bat
-README.txt
-Paulscode SoundSystem CodecIBXM License.txt
-Paulscode IBXM Library License.txt
-MinecraftForge-Credits.txt
-LICENSE-new.txt
-gradlew.bat
-gradlew
-gradle/wrapper/gradle-wrapper.properties
-gradle/wrapper/gradle-wrapper.jar
-gradle.properties
-forge-1.12.2-14.23.0.2540-changelog.txt
-forge-1.12.2-14.23.0.2512-changelog.txt
-CREDITS-fml.txt
-build.gradle
-Build Mod.bat
+.apt_generated
+.classpath
+.eclipse/
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/**/bin/
+
+.vscode/
+
+.DS_Store
+
+run/
+!**/src/**/run/
+**/src/generated/**/.cache/
+repo/
+!**/src/**/repo/

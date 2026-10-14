@@ -1,0 +1,34 @@
+package nicusha.rds.data;
+
+import net.minecraft.core.HolderLookup;
+import net.minecraft.core.RegistrySetBuilder;
+import net.minecraft.data.DataGenerator;
+import net.minecraft.data.PackOutput;
+import net.minecraft.data.recipes.RecipeProvider;
+import net.neoforged.neoforge.common.data.DatapackBuiltinEntriesProvider;
+import net.neoforged.neoforge.data.event.GatherDataEvent;
+
+import java.util.Set;
+import java.util.concurrent.CompletableFuture;
+
+import static nicusha.rds.ReinforcedDiamondSword.MODID;
+
+public class DataGen {
+    public static void genData(GatherDataEvent.Client event) {
+        PackOutput output = event.getGenerator().getPackOutput();
+        CompletableFuture<HolderLookup.Provider> world = event.getWorldLookupProvider();
+        CompletableFuture<HolderLookup.Provider> reloadable = event.getReloadableLookupProvider();
+        DataGenerator generator = event.getGenerator();
+
+        generator.addProvider(true, new ModLangProvider(event.getGenerator().getPackOutput(), "en_us"));
+        String[] popularLanguages = {"es_es", "fr_fr", "de_de", "zh_cn", "ja_jp", "ru_ru", "hi_in", "ar_sa", "th_th", "tk_ph", "sv_se", "pt_pt", "it_it"};
+        for (String lang : popularLanguages) {
+            generator.addProvider(true, new ModLangProvider(event.getGenerator().getPackOutput(), lang));
+        }
+
+        event.createProvider(ModModelProvider::new);
+        event.createBlockAndItemTags(ModBlockTagsProvider::new, (packOutput, lookup, blockTags) -> new ModItemTagsProvider(packOutput, lookup));
+
+        generator.addProvider(true, DatapackBuiltinEntriesProvider.forReloadableLayer(output, "Reinforced Diamond Sword Recipes", world, reloadable, new RegistrySetBuilder().add(RecipeProvider.asBootstrap(ModRecipeProvider::new)), Set.of(MODID)));
+    }
+}

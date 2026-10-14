@@ -1,0 +1,10 @@
+{
+  "item.rds.reinforced_copper_sword": "强化铜剑",
+  "item.rds.reinforced_diamond_sword": "强化钻石剑",
+  "item.rds.reinforced_golden_sword": "强化金剑",
+  "item.rds.reinforced_iron_sword": "强化铁剑",
+  "item.rds.reinforced_netherite_sword": "强化下界合金剑",
+  "item.rds.reinforced_stone_sword": "强化石剑",
+  "item.rds.reinforced_wooden_sword": "强化木剑",
+  "itemGroup.rds": "强化钻石剑！"
+}
